@@ -10,7 +10,7 @@
     }
     body{
       background-color: black;
-      margin: 0;
+      margin: 10;
     }
     h1{
       border-bottom: 3px white solid;
@@ -20,25 +20,38 @@
     }
     ol{
       border-bottom: 2px white dotted;
+      border-right: 2px white dotted;
       margin: 0;
       padding-bottom: 30px;
       padding-top: 30px;
       margin-bottom: 30px;
+      height: 70px;
+    }
+    #see{
+      display: grid;
+      grid-template-columns: 200px 1fr;
+    }
+    #saw{
+      padding-left: 30px;
     }
   </style>
 </head>
 <body>
   <font color="white">
   <h1><a href="all.html">언더테일의 모든 것</a></h1>
-  <ol>
-    <li><a href="undertale.html" style="color: gray;">언더테일에 대하여</a></li>
-    <li><a href="sans.html" title="이 사이트의 핵심 내용">언더테일의 샌즈</a></li>
-    <li><a href="deltarune.html">델타룬의 샌즈</a></li>
-  </ol>
-  <h2>언더테일에 대하여</h2>
-  사실 이 문서는 별로 중요하지 않다.
-  <img src = "undertale-font.jpg" width = 150 align="left">
-  <p>언더테일(Undertale)은 토비 폭스가 제작해 2015년 9월 15일에 출시된 인디 게임이다. 언더테일을 한국어로 굳이 번역하자면 지하 이야기 정도가 된다.</p>
+  <div id="see">
+    <ol>
+      <li><a href="undertale.html" style="color: gray;">언더테일에 대하여</a></li>
+      <li><a href="sans.html" title="이 사이트의 핵심 내용">언더테일의 샌즈</a></li>
+      <li><a href="deltarune.html">델타룬의 샌즈</a></li>
+    </ol>
+    <div id="saw">
+      <h2>언더테일에 대하여</h2>
+      사실 이 문서는 별로 중요하지 않다.
+      <img src = "undertale-font.jpg" width = 150 align="left">
+      <p>언더테일(Undertale)은 토비 폭스가 제작해 2015년 9월 15일에 출시된 인디 게임이다. 언더테일을 한국어로 굳이 번역하자면 지하 이야기 정도가 된다.</p>
+    </div>
+  </div>
   <br><br>
   <div id="disqus_thread"></div>
   <script>
